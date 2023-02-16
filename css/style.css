@@ -182,3 +182,11 @@ td {
 .colorGreen {
     color: rgb(7, 82, 7);
 }
+
+.tableHeader {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(66, 61, 61);
+    margin: 0 auto;
+    padding: 30px;
+}
