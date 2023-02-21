@@ -61,7 +61,7 @@ body {
     margin: 5px;
 }
 
-.general {
+.container {
     width: 1200px;
     margin: 0 auto;
 }
@@ -113,21 +113,25 @@ body {
 
 .aFirst:link {
     color: beige;
+    /*text-decoration: none;*/
     /* Link color */
 }
     
 .aFirst:visited {
     color: beige;
+    /*text-decoration: none;*/
     /* Color of visited links */
 }
 
 .aSecond:link {
     color: purple;
+    /*text-decoration: none;*/
     /* Link color */
 }
 
 .aSecond:visited {
     color: purple;
+    /*text-decoration: none;*/
     /* Color of visited links */
 }
 
@@ -225,3 +229,67 @@ td {
 .onesixo {
     background-color: rgb(7, 7, 206);
 }
+
+/*         HEADER        */
+
+.heading {
+    background-color: rgb(59, 53, 53);
+    margin: 0 auto;
+    padding: 15px; 
+    font-size: 0px;
+    margin-bottom: 30px;
+}
+
+.headingContainer {
+    font-size: 16px;
+    width: 1200px;
+    margin: 0 auto;
+
+    color: azure;
+}
+
+.logo, .menu, .search {
+    display: inline-block;
+}
+
+.logo, .search {
+    width: 95px;
+}
+
+.search button {
+    width: 100%;
+    padding: 7px 10px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.logo a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu {
+    font-size: 0;
+    width: 1000px;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 30px 0 30px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.menu li a.active {
+    color: red;
+}
+/*_____________________________________________________*/
