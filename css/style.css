@@ -334,4 +334,18 @@ td {
 .cardText {
     text-align: justify;
     padding-top: 5px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.cardLink {
+    margin-top: 85px;
+}
+
+.cardLink a {
+    color: rgb(211, 207, 8);
+}
+
+.cardParagraph + p {
+    padding-top: 7px;
 }
