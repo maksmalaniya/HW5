@@ -350,10 +350,85 @@ td {
     padding-top: 7px;
 }
 
+.clearFix::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.firstFloats {
+    /*padding: 50px 0;
+    background-color: bisque;*/
+}
+
 .floatOne {
     width: 400px;
     height: 400px;
     border: 1px solid black;
-    float: right;
+    float: left;
     background-color: rgb(60, 228, 19);
+}
+
+.floatTwo1 {
+    width: 800px;
+    height: 400px;
+    border: 1px solid black;
+    float: left;
+    background-color: rgb(255, 140, 32);
+}
+
+.separated1 {
+    height: 200px;
+    border: 1px solid black;
+}
+
+.floatTwo2 {
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    float: right;
+    background-color: rgb(109, 206, 223);
+}
+
+.separated2 {
+    height: 133.3px;
+    border: 1px solid black;
+}
+
+.floatThree1 {
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    float: left;
+    background-color: rgb(255, 20, 224);
+}
+
+.floatThree2 {
+    width: 800px;
+    height: 200px;
+    border: 1px solid black;
+    float: right;
+    background-color: rgb(71, 20, 255);
+}
+
+.bottomBlocks1 {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+    background-color: rgb(138, 2, 143);
+}
+
+.bottomBlocks2 {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    float: right;
+    background-color: rgb(236, 240, 3);
+}
+
+.separated3 {
+    height: 100px;
+    border: 1px solid black;
+    color: black;
 }
