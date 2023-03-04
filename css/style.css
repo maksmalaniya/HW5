@@ -699,3 +699,99 @@ h2 {
     padding-bottom: 60px;
     text-align: center;
 }
+
+/*_______________________________________POSITION_____________________________________________*/
+
+.containerPositions {
+    width: 1100px;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    padding: 30px 0 30px 0;
+}
+
+.cardsPositions {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardPositions {
+    /*padding: 30px;*/
+    border-radius: 5px;
+    border: 2px solid red;
+    text-align: center;
+    max-width: 300px;
+    background-color: aqua;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 33%;
+    /*flex: 1 1 33%*/
+    position: relative;
+}
+
+.cardImagePositions {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cardImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hPositions{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: rgb(185, 0, 0);
+}
+
+.pPositions {
+    line-height: 20px;
+    font-size: 18px;
+    color: rgb(185, 0, 0);
+}
+
+.cardTextContentPositions {
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    margin-top: -60px;
+    left: 0;
+    background-color: brown;
+    background: rgba(0, 0, 0, 0.5);
+    /*display: none;*/
+    opacity: 0;
+}
+
+.cardPositions:hover .cardTextContentPositions {
+    opacity: 1;
+}
+
+.menuBlock {
+    position: fixed;
+    top: 50%;
+    margin-top: -85px;
+    left: 50px;
+    background-color: rgb(206, 65, 65);
+    color: rgb(41, 9, 156);
+    padding: 30px;
+    border-radius: 2px;
+}
+
+.menuBlock li a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.menuBlock li a:hover {
+    color: black;
+    text-decoration: underline;
+}
