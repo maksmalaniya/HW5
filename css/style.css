@@ -244,13 +244,14 @@ td {
     font-size: 16px;
     width: 1200px;
     margin: 0 auto;
-
+    display: flex;
+    justify-content: space-between;
     color: azure;
 }
 
-.logo, .menu, .search {
+/*.logo, .menu, .search {
     display: inline-block;
-}
+}*/
 
 .logo, .search {
     width: 95px;
@@ -271,7 +272,7 @@ td {
     font-size: 20px;
 }
 
-.menu {
+/*.menu {
     font-size: 0;
     width: 1000px;
     text-align: center;
@@ -281,6 +282,13 @@ td {
     display: inline-block;
     font-size: 16px;
     margin: 0 30px 0 30px;
+}*/
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1000px;
 }
 
 .menu li a {
@@ -432,3 +440,62 @@ td {
     border: 1px solid black;
     color: black;
 }
+
+/*_________________________________NEW MENU____________________________________*/
+
+.ulFlexElement {
+    display: flex;
+    flex-direction: column;
+}
+
+.newMenu {
+    position: relative;
+}
+
+.ulFlexElement {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+}
+
+.ulFlexElement a{
+    
+}
+
+.ulFlexElement li:first-child {
+    margin-top: 14px;
+}
+
+.ulFlexElement li {
+    background-color: rgb(93, 89, 89);
+    
+}
+
+.ulFlexElement li a {
+    display: block;
+    padding: 10px 25px;
+    border: 1px solid black;
+}
+
+.newMenu:hover .ulFlexElement{
+    display:block;
+}
+
+.ulFlexElement li:nth-child(6){
+    position: relative;
+
+}
+
+.layouts {
+    position: absolute;
+    top: 0%;
+    margin-top: -14px;
+    right: 100%;
+    display: none;
+}
+
+.ulFlexElement li:nth-child(6):hover .layouts{
+    display: block;
+}
+
