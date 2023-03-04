@@ -364,11 +364,6 @@ td {
     display: block;
 }
 
-.firstFloats {
-    /*padding: 50px 0;
-    background-color: bisque;*/
-}
-
 .floatOne {
     width: 400px;
     height: 400px;
@@ -459,10 +454,6 @@ td {
     display: none;
 }
 
-.ulFlexElement a{
-    
-}
-
 .ulFlexElement li:first-child {
     margin-top: 14px;
 }
@@ -497,5 +488,214 @@ td {
 
 .ulFlexElement li:nth-child(6):hover .layouts{
     display: block;
+    
 }
 
+/*_________________________________________________________________AMELIA FLOWERS________________________________________________________________*/
+
+.ameliaСontainer {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.amelia {
+    font-size: 18px;
+    color: #161616;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #161616;
+}
+
+/*_________________________HEADER_________________________*/
+
+header {
+    background-color: #81a36b;
+}
+
+.headerFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.headerLogo {
+    max-width: 155px;
+}
+
+.headerList {
+    width: 800px;
+}
+
+.headerList ul {
+    display: flex;
+    gap: 80px;
+}
+
+/*___________________MAIN PART___________________________*/
+
+/*___________________AMELIA FLOWERS______________________*/
+
+main {
+    background-color: #d8d8d6;
+}
+
+.ameliaTextContent {
+    margin-top: 65px;
+    margin-bottom: 40px;
+    line-height: 141.06%;
+}
+
+.ameliaFlowerFlex {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.order {
+    width: 190px;
+    height: 60px;
+    margin-right: 50px;
+    border: 1px solid #81a36b;
+    background: #81a36b;
+    color: #161616;
+    border-radius: 2px;
+    line-height: 21px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.help {
+    width: 190px;
+    height: 60px;
+    border: 1px solid #81a36b;
+    background: transparent;
+    color: #161616;
+    border-radius: 4px;
+    line-height: 21px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*_________________________ABOUT US PART_____________________________*/
+
+h2 {
+    font-size: 32px;
+    line-height: 34px;
+}
+
+.aboutUsheader {
+    margin-top: 80px;
+    text-align: center;
+
+}
+
+.small {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    line-height: 30px;
+}
+
+.small p {
+    width: 550px;
+}
+
+/*______________________ABOUT US ICONS______________________________*/
+
+.aboutUsIcons {
+    background-color: #81a36b;
+}
+
+.ulIcons {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ulIcons li {
+    text-align: center;
+}
+
+.ulIcons li p {
+    padding-top: 15px;
+}
+
+
+
+/*________________________HOW WE WORK________________________________*/
+
+.howWeWorkFlex {
+    margin-top: 120px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.howWeWorkText {
+    margin-left: 30px;
+}
+
+.ameliaTextContent {
+    margin-top: 60px;
+    line-height: 164.06%;
+}
+
+/*________________________________OUR WORKS________________________________*/
+
+.ourWorksHeader {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.ourWorksImages {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 120px;
+}
+
+.ourWorksImages p {
+    text-align: center;
+    margin-top: 23px;
+}
+
+.ourWorksImages div {
+    background-color: #81a36b;
+    width: 350px;
+    padding: 15px 15px 93px 15px;
+}
+
+/*____________________________FOOTER__________________________________*/
+
+.allFooter {
+    background-color: #81a36b;
+}
+
+.footerFlex {
+
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts ul {
+    margin-top: 40px;
+}
+
+.contacts ul li+li {
+    margin-top: 20px;
+}
+
+.footerYear {
+    margin-top: 40px;
+    padding-bottom: 60px;
+    text-align: center;
+}
