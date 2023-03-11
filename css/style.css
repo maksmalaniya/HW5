@@ -556,6 +556,19 @@ td {
     margin-top: 30px;
 }
 
+.mainFooterAbsolute {
+    background-color: rgb(59, 53, 53);
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 0px;
+    margin-top: 30px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: -140px;
+}
+
 .mainFooterContainer {
     font-size: 18px;
     width: 1200px;
