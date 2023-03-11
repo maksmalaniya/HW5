@@ -545,3 +545,48 @@ td {
     color: black;
     text-decoration: underline;
 }
+
+/*________________________________FOOTER___________________________________*/
+
+.mainFooter {
+    background-color: rgb(59, 53, 53);
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 0px;
+    margin-top: 30px;
+}
+
+.mainFooterContainer {
+    font-size: 18px;
+    width: 1200px;
+    margin: 0 auto;
+    color: azure;
+}
+
+.svgHeader {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.svgList {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.hidden {
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.spriteIcon {
+    width: 50px;
+    height: 50px;
+    fill: #fff;
+}
+
+.spriteIcon:hover {
+    fill: red;
+}
