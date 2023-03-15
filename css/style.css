@@ -408,9 +408,10 @@ td {
 .ulFlexElement {
     position: absolute;
     top: 100%;
-    left: 0;
-    display: none;
+    left: -5000%;
+    /*display: none;*/
     z-index: 1;
+    transition: all 1s cubic-bezier(.08, .96, .8, .44);
 }
 
 .ulFlexElement li:first-child {
@@ -429,26 +430,33 @@ td {
 }
 
 .newMenu:hover .ulFlexElement{
-    display:block;
+    /*display:block;*/
+    top: 100%;
+    left: 0;
 }
 
 .ulFlexElement li:nth-child(7){
     position: relative;
-
+    
 }
 
 .layouts {
     position: absolute;
-    top: 0%;
-    margin-top: -14px;
+    top: -600%;
+    margin-top: -140px;
     right: 100%;
-    display: none;
+    /*z-index: -1;*/
+    /*display: none;*/
     font-family: 'Raleway';
     font-weight: 300;
+    transition: all 1s cubic-bezier(.17, .96, .14, .81);
 }
 
 .ulFlexElement li:nth-child(7):hover .layouts{
-    display: block;
+    /*display: block;*/
+    top: 0%; 
+    right: 100%;
+    margin-top: -14px;
     
 }
 
@@ -607,12 +615,20 @@ td {
 }
 
 .headerIcon {
-    width: 17px;
-    height: 17px;
+    width: 16px;
+    height: 16px;
     fill: #fff;
     position: absolute;
     top: 1px;
     left: -20px;
+    transition-property: fill;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(.2, 1.73, .75, -0.29);
+
+}
+
+.headerIcon:hover {
+    fill: red;
 }
 
 .menu > li {
@@ -620,15 +636,21 @@ td {
 }
 
 .headerIconRight {
-    width: 17px;
-    height: 17px;
+    width: 16px;
+    height: 16px;
     fill: #fff;
     position: absolute;
     top: 1px;
     right: -20px;
+    transition-property: fill;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+.headerIconRight:hover { 
+    fill: red;
 }
 
 .active {
     fill: red;
 }
-
